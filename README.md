@@ -1,6 +1,5 @@
 Express MVC Boilerplate
 ==================================
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Build Status](https://travis-ci.org/oguzhanoya/express-mvc-boilerplate.svg?branch=master)](https://travis-ci.org/oguzhanoya/express-mvc-boilerplate)
 
 > A simple mvc boilerplate for express.js (gulp + expressjs + nodemon + browser-sync)
 
@@ -58,10 +57,6 @@ Express MVC Boilerplate
 
 The easiest way to get started is to clone the repository:
 
-```sh
-# Get the latest snapshot
-$ git clone https://github.com/oguzhanoya/express-mvc-boilerplate.git myproject
-$ cd myproject
 
 # Install dependencies
 $ npm install
@@ -95,17 +90,3 @@ docker-compose build
 # Start the application
 docker-compose up
 ```
-
-## Deploy
-
-Make sure you have the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```
-heroku create
-git push heroku master
-heroku open
-```
-
-## License
-
-MIT
